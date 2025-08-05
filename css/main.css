@@ -56,11 +56,16 @@
     margin: 0 20px;
 }
 
-.sign-in{
+.sign-in a{
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
     margin-right: 80px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* contenido 1 */
@@ -87,18 +92,51 @@
     overflow: hidden;
 }
 
-.card img{
+.card-imagen img{
     transition: all .5s ease;
     
 }
 
-.card{
+.card-imagen{
     overflow: hidden;
 }
-/* efectos cartas */
 
-.card:hover img{
-    transform: scale(1.1);
+/* contenido 2 */
+
+.box-accion{
+    display: flex;
+    align-items: center;
+}
+
+.box-accion ul{
+    list-style: none;
+}
+
+.box-accion ul li{
+    margin: 20px 0px;
     
 }
+
+
+.box-accion ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* contenido 3 */
+
+.barra-centra1 img{
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+/* efectos cartas */
+
 
