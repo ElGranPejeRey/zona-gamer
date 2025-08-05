@@ -87,9 +87,17 @@
     overflow: hidden;
 }
 
+.card img{
+    transition: all .5s ease;
+    
+}
+
+.card{
+    overflow: hidden;
+}
 /* efectos cartas */
 
-img:hover{
+.card:hover img{
     transform: scale(1.1);
     
 }
