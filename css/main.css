@@ -38,8 +38,8 @@
 
 .barra-superior{
     border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 /* nav */
@@ -62,3 +62,35 @@
     align-items: center;
     margin-right: 80px;
 }
+
+/* contenido 1 */
+
+.imagen-uno img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+
+
+.caja-img img{
+    border-radius: 25px;
+}
+
+.card-img-overlay{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+
+.imagen-uno{
+    overflow: hidden;
+}
+
+/* efectos cartas */
+
+img:hover{
+    transform: scale(1.1);
+    
+}
+
