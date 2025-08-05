@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+}
+
+.social ul li{
+    margin: 20px;
+}
+
+.social ul li a i{
+    color: white;
+}
+
+.content-parrafo{
+    display: flex;
+    align-items: center;
+}
+
+.texto-barra{
+    margin: 0px;
+    color: white;
+    margin-left: 50px;
+}
+
+.barra-superior{
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* nav */
+
+.navbar-brand{
+   margin-left: 80px;
+}
+
+.navbar-nav{
+    margin-left: 25px;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+
+.sign-in{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 80px;
+}
