@@ -138,4 +138,7 @@
 
 /* efectos cartas */
 
+.card-imagen:hover img{
+    transform: scale(1.1);
+}
 
